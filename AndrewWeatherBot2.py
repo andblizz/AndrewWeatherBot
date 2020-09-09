@@ -1,10 +1,10 @@
 import pyowm
-#from pyowm.utils.config import get_default_config
+from pyowm.utils.config import get_default_config
 import telebot
 
 bot = telebot.TeleBot("1312275856:AAFujjUoQK0GPABJugyWkIWsoVmM9NUvdjM")
-#config_dict = get_default_config()
-#config_dict['language'] = 'ru'
+config_dict = get_default_config()
+config_dict['language'] = 'ru'
 owm = pyowm.OWM('94f30450475b423d8a8065fbe892c632')
 
 mgr = owm.weather_manager()
