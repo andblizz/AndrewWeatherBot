@@ -1,1 +1,1 @@
-python AndrewWeatherBot2.py
+web: python AndrewWeatherBot2.py
